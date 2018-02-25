@@ -1,0 +1,5 @@
+[pep8]
+# https://pycodestyle.readthedocs.io/en/latest/intro.html#error-codes
+# E226 - missing whitespace around arithmetic operator
+
+ignore = E226
