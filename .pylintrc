@@ -1,4 +1,6 @@
 [pylint]
+# https://code.visualstudio.com/docs/python/linting#_commandline-arguments-and-configuration-files
 # C0103 - when a name doesn't doesn't fit the naming convention - http://pylint-messages.wikidot.com/messages:c0103
 # C0111 - no docstrings in module - http://pylint-messages.wikidot.com/messages:c0111
 disable = C0103,C0111
+
