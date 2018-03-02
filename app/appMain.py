@@ -3,10 +3,16 @@ msg = 'hi'
 
 asdFoo = 5
 
-print(msg.capitalize())
+print(
+    msg.capitalize())
 
-print(2+2)
+print(2+2 )
+# see if this is fixed: https://github.com/DamnWidget/anaconda/issues/747
 print(3+3)
+
+
+
+
 
 
 def main():

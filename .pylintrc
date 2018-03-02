@@ -3,4 +3,4 @@
 # http://pylint-messages.wikidot.com/all-messages
 # https://github.com/janjur/readable-pylint-messages/blob/master/README.md
 # C0111 - no docstrings in module - http://pylint-messages.wikidot.com/messages:c0111
-disable = C0103,C0111
+disable = C0111
