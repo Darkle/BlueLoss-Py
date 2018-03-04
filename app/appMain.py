@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# __coconut_hash__ = 0x2bf4b6a0
+# __coconut_hash__ = 0x889e1090
 
 # Compiled with Coconut version 1.3.1 [Dead Parrot]
 
@@ -642,7 +642,7 @@ from common.foo import foo
 foo()
 import pdb
 pdb.set_trace()
-print('hello from coconutssasdasds')
+print('hello from coconutssasdasdsasd')
 
 
 # import csv
