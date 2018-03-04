@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# __coconut_hash__ = 0x2bf4b6a0
+# type: ignore
 
 # Compiled with Coconut version 1.3.1 [Dead Parrot]
+
+"""Built-in Coconut utilities."""
 
 # Coconut Header: -------------------------------------------------------------
 
@@ -632,60 +634,3 @@ def fmap(func, obj):
         return "".join(args)
     return obj.__class__(args)
 _coconut_MatchError, _coconut_count, _coconut_enumerate, _coconut_reversed, _coconut_map, _coconut_starmap, _coconut_tee, _coconut_zip, reduce, takewhile, dropwhile = MatchError, count, enumerate, reversed, map, starmap, tee, zip, _coconut.functools.reduce, _coconut.itertools.takewhile, _coconut.itertools.dropwhile
-
-# Compiled Coconut: -----------------------------------------------------------
-
-
-# Remember can use conditional explressions instead of if/else to assign to a variable - `x = foo if thing else bar`
-from common.foo import foo
-
-foo()
-import pdb
-pdb.set_trace()
-print('hello from coconutssasdasds')
-
-
-# import csv
-# import io
-
-# foo = csv.writer()
-
-# msg = 'hi'
-# if msg: print('asd')
-# asdFoo = 5
-
-# print(
-#     msg.capitalize())
-
-# print(2+2 )
-# print(3+3)
-
-# "hello, world!" |> print
-
-# for idx, value in enumerate(y):
-#     if value > max_value:
-#         break
-
-# processList(y, idx)
-
-
-# # def main():
-# #     x = 'a'
-# #     _x = 'a'
-# #     _ = 'a'
-
-
-# # define the name of the file to read from
-# filename = "test.txt"
-
-# # open the file for reading
-# filehandle = open(filename, 'r')
-# while True:
-#     # read a single line
-#     line = filehandle.readline()
-#     if not line:
-#         break
-#     print(line)
-
-# # close the pointer to that file
-# filehandle.close()
