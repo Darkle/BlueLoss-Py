@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# __coconut_hash__ = 0x889e1090
+# __coconut_hash__ = 0xc28d7529
 
 # Compiled with Coconut version 1.3.1 [Dead Parrot]
 
@@ -645,47 +645,47 @@ pdb.set_trace()
 print('hello from coconutssasdasdsasd')
 
 
-# import csv
-# import io
+import csv
+import io
 
-# foo = csv.writer()
+foo = csv.writer()
 
-# msg = 'hi'
-# if msg: print('asd')
-# asdFoo = 5
+msg = 'hi'
+if msg:
+    print('asd')
+asdFoo = 5
 
-# print(
-#     msg.capitalize())
+print(msg.capitalize())
 
-# print(2+2 )
-# print(3+3)
+print(2 + 2)
+print(3 + 3)
 
-# "hello, world!" |> print
+(print)("hello, world!")
 
-# for idx, value in enumerate(y):
-#     if value > max_value:
-#         break
+for idx, value in enumerate(y):
+    if value > max_value:
+        break
 
-# processList(y, idx)
-
-
-# # def main():
-# #     x = 'a'
-# #     _x = 'a'
-# #     _ = 'a'
+processList(y, idx)
 
 
-# # define the name of the file to read from
-# filename = "test.txt"
+# def main():
+#     x = 'a'
+#     _x = 'a'
+#     _ = 'a'
 
-# # open the file for reading
-# filehandle = open(filename, 'r')
-# while True:
-#     # read a single line
-#     line = filehandle.readline()
-#     if not line:
-#         break
-#     print(line)
 
-# # close the pointer to that file
-# filehandle.close()
+# define the name of the file to read from
+filename = "test.txt"
+
+# open the file for reading
+filehandle = open(filename, 'r')
+while True:
+# read a single line
+    line = filehandle.readline()
+    if not line:
+        break
+    print(line)
+
+# close the pointer to that file
+filehandle.close()
