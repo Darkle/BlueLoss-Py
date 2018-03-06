@@ -1,41 +1,43 @@
 
-# Remember can use conditional explressions instead of if/else to assign to a variable - `x = foo if thing else bar`
+# Remember can use conditional explressions instead of if/else to
+# # assign to a variable - `x = foo if thing else bar`
 from common.foo import foo
+import pdb
+
 
 foo()
-import pdb
 pdb.set_trace()
 print('hello from coconutssasdasdsasd')
-
-
 import csv
 import io
-
 foo = csv.writer()
 
 msg = 'hi'
 if msg: print('asd')
 asdFoo = 5
 
-print(
-    msg.capitalize())
+match [head] + tail in [0, 1, 2, 3]:
+    print(head, tail)
 
-print(2+2 )
-print(3+3)
 
-"hello, world!" |> print
+print(msg.capitalize())
+
+print(2+2)
+print(3 +3 )
+
+"hellasdo, world!" |> print
 
 for idx, value in enumerate(y):
     if value > max_value:
         break
-
+asd
 processList(y, idx)
 
 
-# def main():
-#     x = 'a'
-#     _x = 'a'
-#     _ = 'a'
+def main():
+    x = 'a'
+    _x = 'a'
+    _ = 'a'
 
 
 # define the name of the file to read from
